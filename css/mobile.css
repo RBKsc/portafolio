@@ -272,7 +272,7 @@
      section.formcontato{
         width: 93vw;
     }
-
+ 
     .formcontato--esquerda{
         width:90vw;
         align-items: center;
@@ -281,7 +281,20 @@
     .formcontato__title{
         font-size: medium;
     }
-    
+
+    .formcontato__form{
+        width:80vw;
+    }
+
+    .formcontato__input{
+        width:70vw;
+    }
+
+    .formcontato__textarea{
+        width:70vw;
+    }
+
+   
     /*Footer*/
     section.footer{
         width:93vw;
