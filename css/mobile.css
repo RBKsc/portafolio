@@ -1,0 +1,291 @@
+/*Tablet*/
+@media (min-width: 576px) and (max-width: 834px) {
+  
+
+    /* Menú */
+    .menu{
+        display:flex;
+        width: 768px;
+    }
+
+    .menu__header{
+        width:300px
+    }
+
+    .menu__title{
+        width:300px;
+    }
+    .nav{
+        width: 400px;
+    }
+
+    .menu__list {
+        display:grid;
+        justify-content: end;
+        margin-right: 1em;
+
+    }
+   .menu__list li:not(:last-child){
+    display:none;
+   }
+
+    /*about*/
+    section.about{
+        width: 725px;
+        padding-left: 1em;
+    }
+
+    .about__paragraph{
+        width: 720px;
+    }
+
+    .about__paragraph1{
+        width:720px;
+    }
+    /*Skills*/
+    section.skills{
+        width: 725px;
+        padding-left: 1em;
+    }
+
+    .skills__line{
+        width: 723px;
+    }
+
+    .skills__box{
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+    /*Hobbies*/
+    section.hobbies{
+        width: 725px;
+        padding-left: 1em;
+        height: 190px;
+        padding-bottom: 2em;
+    }
+
+    .hobbies__line{
+        width: 723px;
+        height: 190px;
+        flex-wrap: wrap;
+    }
+
+    .hobbies__box{
+        margin-right: 1em;
+        margin-left: 1em;
+        width:185px;
+    }
+    /*Formación Académica*/
+
+    section.academic{
+        width: 725px;
+    }
+
+    .academic__courses{
+       width: 723px
+    }
+    
+    /*Experiencia Profesional*/
+    section.experience{
+        width: 725px;
+    }
+    
+    .experiencie__box{
+        width: 723px;
+        display:flex;
+        flex-wrap:wrap;
+        height: 700px;
+        justify-content: center;
+        font-size:large;
+    }
+
+    .experience__img{
+        margin:10px 0 0 0;
+        
+    }
+    .experience__info{
+        margin:0;
+        height:150px;
+    }
+
+    /*contacto*/
+    section.formcontato{
+        width: 725px;
+    }
+
+    .formcontato--esquerda{
+        width:723px;
+    }
+
+    /*footer*/
+    section.footer{
+        width:725px;
+    }
+    }
+
+    
+    /*Mobile*/
+    @media (max-width: 575px) {
+    
+    /*Menu*/
+
+        .menu{
+            width: 100vw; 
+            flex-direction: column;
+            flex-wrap: wrap;
+    
+        }
+
+        .menu__header{
+            width: 100vw;
+        
+        }
+
+        .menu__title{
+            padding-inline-start: 1em;
+            margin: 0;
+        }
+
+        nav{
+        width: 100vw;
+    }
+
+        .menu__list{
+            width: 100vw;
+            margin-top: 0;
+        }
+
+    .menu__list li:not(:last-child){
+        display:none;
+       }
+
+    /*Titulo*/
+    .title{
+        width: 100vw;
+        display: flex;
+    }
+
+    .title__div{
+        padding-top: 0;
+        flex-direction: column;
+    }
+
+    .title__profile{
+        margin: 0;
+    }
+
+    .title__container{
+        width: 90vw;
+    }
+
+    .title__network{
+        display: flex;
+        justify-content: center;
+        gap:10px;
+    }
+    
+    /*Sección sobre mi*/
+    section.about{
+        width: 93vw;
+        height: 40vh;
+    }
+
+    .about__paragraph{
+        width: 90vw;
+        padding-top: 0;
+        margin: 0;
+    }
+
+    /*Skills*/
+    section.skills{
+        width: 93vw;
+    }
+
+    .skills__line{
+        width: 90vw;
+    }
+    
+    .skills__box{
+        margin: 5px;
+        padding: 1em;
+    }
+     /*Hobbies*/
+    section.hobbies{
+        width: 93vw;
+    }
+
+    .hobbies__line{
+        width: 90vw;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .hobbies__box{
+        margin: 1em;
+        width:100px;
+    }
+   
+     
+    /*Formación Académica*/
+    section.academic{
+        width: 93vw;
+    }
+
+    .academic__courses{
+        width: 93vw;
+        flex-wrap: wrap;
+        justify-content: center;
+     }
+
+     .academic__courses__box{
+        width:auto;
+     }
+    /*Experiencia Profesional*/
+    section.experience{
+        width: 93vw;
+    }
+
+    .experiencie__box{
+        width: 90vw;
+        flex-direction: column;
+        font-size: small;
+    }
+
+    .experience__img{
+        width: 89vw;
+        height: min-content;
+        margin: 0;
+    }
+
+    .experience__info{
+        margin:0;
+       height: 20vh;
+    }
+
+    .experiencia__botao--repo, .experience__botao--demo{
+        width: 7em;
+        height: 2em;
+        font-size: small;
+    }
+     /*Contacto*/
+
+     section.formcontato{
+        width: 93vw;
+    }
+
+    .formcontato--esquerda{
+        width:90vw;
+        align-items: center;
+    }
+
+    .formcontato__title{
+        font-size: medium;
+    }
+    
+    /*Footer*/
+    section.footer{
+        width:93vw;
+    }
+    }
+    
+    
