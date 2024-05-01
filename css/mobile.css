@@ -132,14 +132,14 @@
     /*Menu*/
 
         .menu{
-            width: 100vw; 
+            width: 98vw; 
             flex-direction: column;
             flex-wrap: wrap;
     
         }
 
         .menu__header{
-            width: 100vw;
+            width: 98vw;
         
         }
 
@@ -149,11 +149,11 @@
         }
 
         nav{
-        width: 100vw;
+        width: 90vw;
     }
 
         .menu__list{
-            width: 100vw;
+            width: 90vw;
             margin-top: 0;
         }
 
@@ -163,7 +163,7 @@
 
     /*Titulo*/
     .title{
-        width: 100vw;
+        width: 93vw;
         display: flex;
     }
 
@@ -177,7 +177,9 @@
     }
 
     .title__container{
-        width: 90vw;
+        width: 88vw;
+        padding: 0;
+        margin-left: 1em;
     }
 
     .title__network{
@@ -189,7 +191,8 @@
     /*Sección sobre mi*/
     section.about{
         width: 93vw;
-        height: 40vh;
+        height: 60vh;
+        padding-left: 1em;
     }
 
     .about__paragraph{
@@ -201,6 +204,7 @@
     /*Skills*/
     section.skills{
         width: 93vw;
+        padding-left: 1em;
     }
 
     .skills__line{
@@ -214,6 +218,7 @@
      /*Hobbies*/
     section.hobbies{
         width: 93vw;
+        padding-left: 1em;
     }
 
     .hobbies__line{
@@ -231,6 +236,7 @@
     /*Formación Académica*/
     section.academic{
         width: 93vw;
+        padding-left: 1em;
     }
 
     .academic__courses{
@@ -245,6 +251,7 @@
     /*Experiencia Profesional*/
     section.experience{
         width: 93vw;
+        padding-left: 1em;
     }
 
     .experiencie__box{
