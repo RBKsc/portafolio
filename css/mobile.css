@@ -260,6 +260,7 @@
     .experience__info{
         margin:0;
        height: 20vh;
+       width: 80vw;
     }
 
     .experiencia__botao--repo, .experience__botao--demo{
@@ -274,7 +275,7 @@
     }
  
     .formcontato--esquerda{
-        width:90vw;
+        width:85vw;
         align-items: center;
     }
 
@@ -287,11 +288,11 @@
     }
 
     .formcontato__input{
-        width:70vw;
+        width:77vw;
     }
 
     .formcontato__textarea{
-        width:70vw;
+        width:77vw;
     }
 
    
