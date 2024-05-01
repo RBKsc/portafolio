@@ -79,6 +79,7 @@
 
     section.academic{
         width: 725px;
+        padding-left: 1em;
     }
 
     .academic__courses{
@@ -88,6 +89,7 @@
     /*Experiencia Profesional*/
     section.experience{
         width: 725px;
+        padding-left: 1em;
     }
     
     .experiencie__box{
