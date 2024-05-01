@@ -287,10 +287,12 @@
 
     .formcontato__form{
         width:80vw;
+        padding-left: 1em;
     }
 
     .formcontato__input{
         width:77vw;
+        
     }
 
     .formcontato__textarea{
